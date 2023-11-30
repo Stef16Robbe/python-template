@@ -20,10 +20,8 @@ REQUIREMENTS = [
 
 DEV_REQUIREMENTS = [
     'bandit == 1.7.*',
-    'black == 23.*',
+    'ruff == 0.1.*',
     'build == 0.10.*',
-    'flake8 == 6.*',
-    'isort == 5.*',
     'mypy == 1.5.*',
     'pytest == 7.*',
     'pytest-cov == 4.*',
@@ -64,5 +62,5 @@ setuptools.setup(
             'PROJECT_NAME_URL=project_name.my_module:main',
         ]
     },
-    python_requires='>=3.8, <4',
+    python_requires='>=3.11, <4',
 )
