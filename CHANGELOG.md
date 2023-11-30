@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v1.10.1 (2023-11-30)
+
+- Add `just` installation requirement
+- Replace Black, isort, Flake8 with ruff
+- Move `venv` folder to `.venv`
+- Add *.lcov removal in `clean` step
+- Increase minimum Python version to 3.11
+
 ## v1.10.0 (2023-08-24)
 
 - Drops Python 3.7 support
