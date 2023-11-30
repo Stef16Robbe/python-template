@@ -30,10 +30,15 @@ just install
 Usage instructions go here.
 
 ```bash
-venv/bin/python my_script.py
+source .venv/bin/activate
+python3 project_name/my_module.py
 ```
 
 ## Development
+
+### Pre-requirements
+
+You must have [just](https://github.com/casey/just) installed.
 
 ```bash
 # Get a comprehensive list of development tools
